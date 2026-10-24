@@ -1,0 +1,124 @@
+
+* {
+    box-sizing: border-box;
+}
+
+.stApp {
+    background: linear-gradient(135deg, #f5f9ff, #ffffff);
+    color: #10265c;
+    font-family: Arial, sans-serif;
+}
+
+.block-container {
+    max-width: 1200px;
+    padding-top: 2rem;
+}
+
+.hero-title {
+    font-size: 48px;
+    font-weight: 800;
+    line-height: 1.15;
+    color: #10265c;
+}
+
+.hero-title span {
+    color: #4563ff;
+}
+
+.hero-description {
+    color: #526b99;
+    font-size: 17px;
+    line-height: 1.8;
+}
+
+.section-title {
+    font-size: 32px;
+    font-weight: 750;
+    color: #10265c;
+    text-align: center;
+    margin-top: 35px;
+    margin-bottom: 10px;
+}
+
+.section-description {
+    color: #62769c;
+    font-size: 16px;
+    text-align: center;
+    line-height: 1.7;
+}
+
+.about-card {
+    background: linear-gradient(135deg, #ffffff, #eaf5ff);
+    border: 1px solid #c8ddff;
+    border-radius: 18px;
+    padding: 25px;
+    margin: 20px 0;
+    line-height: 1.9;
+    color: #405982;
+}
+
+.feature-card {
+    background: #ffffff;
+    border: 1px solid #dce8ff;
+    border-radius: 16px;
+    padding: 23px;
+    min-height: 175px;
+    margin-bottom: 15px;
+    box-shadow: 0 5px 20px rgba(30, 70, 140, 0.04);
+}
+
+.feature-icon {
+    font-size: 30px;
+}
+
+.feature-title {
+    font-size: 19px;
+    font-weight: bold;
+    color: #163574;
+    margin-top: 12px;
+}
+
+.feature-text {
+    color: #657a9e;
+    line-height: 1.6;
+    font-size: 14px;
+}
+
+.step-card {
+    background: #ffffff;
+    border: 1px solid #dce8ff;
+    border-radius: 15px;
+    padding: 20px;
+    text-align: center;
+    min-height: 150px;
+}
+
+.result-card {
+    background: white;
+    border: 1px solid #dce8ff;
+    border-radius: 16px;
+    padding: 22px;
+    margin-bottom: 15px;
+}
+
+.footer {
+    background: #13274b;
+    color: white;
+    border-radius: 15px;
+    padding: 25px;
+    text-align: center;
+    margin-top: 35px;
+}
+
+div.stButton > button {
+    border-radius: 10px;
+    min-height: 45px;
+    font-weight: 600;
+}
+
+div[data-testid="stFileUploader"] {
+    background: white;
+    border: 1px dashed #7ea8ff;
+    border-radius: 15px;
+    padding: 15px;
+}
