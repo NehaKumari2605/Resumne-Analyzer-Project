@@ -618,3 +618,7 @@ elif st.session_state.page == "Analyze":
             "AI-generated feedback may contain errors. "
             "Review all suggestions before using them."
         )
+        st.caption(
+                    "AI-generated feedback may contain errors. "
+                    "Review all suggestions before using them."
+        )
